@@ -5,6 +5,11 @@
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .section-one {
     background-color: #1f2937;
     padding: 0 300px 100px 300px;
@@ -134,4 +139,48 @@ a {
     color: #1f2937;
     font-weight: bold;
     margin-right: 20px;
+}
+
+.section-four {
+    padding: 100px 400px;
+    background-color: white;
+    flex: 1;
+}
+
+.rectangle {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 50px 120px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action-text {
+    font-size: 18px;
+}
+
+.sign-up2 {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+    padding: 8px 32px; ;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 20px ;
+    font-size: 12px;
 }
